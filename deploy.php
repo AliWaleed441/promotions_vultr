@@ -14,7 +14,7 @@ add('writable_dirs', []);
 // Hosts
 
 host('198.13.46.186')
-    ->set('remote_user', 'deployer')
+    ->set('remote_user', 'promotions_user')
     ->set('deploy_path', '~/var/www/html/promotions_vultr');
 
 // Hooks
